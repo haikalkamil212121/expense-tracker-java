@@ -9,10 +9,10 @@ Fitur Utama
 
 - **Pencatatan Arus Kas:** Mencatat transaksi pemasukan dan pengeluaran secara fleksibel beserta tanggal dan catatan/keterangan.
 - **Kategori Pengeluaran Terstruktur:** Dilengkapi opsi kategori menggunakan tipe data *Enum*:
-  1. `Makanan`
-  2. `Jajan`
-  3. `Bensin`
-  4. `Biaya Tak Terduga`
+  1. Makanan
+  2. Jajan
+  3. Bensin
+  4. Biaya Tak Terduga
 - **Kalkulasi Otomatis:**
   - Menghitung **Uang Harian Terpakai** secara real-time berdasarkan tanggal yang dipilih.
   - Menghitung **Uang Bulanan Terpakai** berdasarkan akumulasi bulan berjalan.
