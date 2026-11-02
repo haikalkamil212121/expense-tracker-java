@@ -1,7 +1,7 @@
 # Expense Tracker JavaFX (Maven)
 
 project ini berbasis bahasa pemrograman java
-menggunakan software Apache NetBeans untuk IDE dan SceneBuilder untuk GUI
+menggunakan software Apache NetBeans untuk IDE dan SceneBuilder untuk GUI.
 
 ---
 
