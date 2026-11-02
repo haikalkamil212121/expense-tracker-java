@@ -54,7 +54,7 @@ Pantau Indikator: Jika pengeluaran harian melewati batas limit, label uang haria
 
 ---
 
-**Scrennshot tampilan screen project Expense tracker**
+## Scrennshot tampilan screen project Expense tracker
 
 <img width="347" height="446" alt="image" src="https://github.com/user-attachments/assets/e82d7473-8b8d-4845-80a6-e6f24651df8c" />
 <img width="343" height="441" alt="image" src="https://github.com/user-attachments/assets/7548f16e-4d45-4737-b304-96f7369ec1ef" />
