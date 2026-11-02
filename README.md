@@ -5,7 +5,7 @@ menggunakan software Apache NetBeans untuk IDE dan SceneBuilder untuk visual sed
 
 ---
 
-Fitur Utama
+### Fitur Utama
 
 - **Pencatatan Arus Kas:** Mencatat transaksi pemasukan dan pengeluaran secara fleksibel beserta tanggal dan catatan/keterangan.
 - **Kategori Pengeluaran Terstruktur:** Dilengkapi opsi kategori menggunakan tipe data *Enum*:
@@ -22,20 +22,20 @@ Fitur Utama
 
 ---
 
-Panduan Instalasi & Menjalankan Proyek
-Clone atau Download Repository Ini:
+### Panduan Instalasi & Menjalankan Proyek
+- Clone atau Download Repository Ini:
 
 Bash
 git clone https://github.com/username-kamu/ExpenseApp.git
 Buka Proyek di NetBeans:
 
-Buka NetBeans, pilih File > Open Project, lalu pilih folder ExpenseApp.
+- Buka NetBeans, pilih File > Open Project, lalu pilih folder ExpenseApp.
 
-Sinkronisasi Maven:
+- Sinkronisasi Maven:
 
 Klik kanan pada nama proyek, lalu pilih Reload POM untuk mengunduh dependensi JavaFX secara otomatis.
 
-Menjalankan Aplikasi (GUI):
+- Menjalankan Aplikasi (GUI):
 
 Buka package main, klik kanan pada MainApp.java, lalu pilih Run File (Shift + F6).
 
@@ -43,7 +43,7 @@ Atau gunakan perintah Maven di terminal: mvn javafx:run.
 
 ---
 
-Cara Penggunaan Aplikasi
+### Cara Penggunaan Aplikasi
 Atur Limit Harian: Masukkan nominal batas pengeluaran harian pada kolom Limit Harian, lalu klik tombol Set Limit.
 
 Tambah Pemasukan: Pilih tanggal, ubah jenis transaksi menjadi Pemasukan, masukkan nominal, lalu klik Simpan Transaksi.
