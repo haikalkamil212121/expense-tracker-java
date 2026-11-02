@@ -20,6 +20,7 @@ public class DemoTerminalMode {
         System.out.println("Total Pemasukan       : Rp " + hitung.hitungTotalPemasukan());
         System.out.println("Uang Harian Terpakai  : Rp " + hitung.hitungUangHarianTerpakai(hariIni));
         System.out.println("Uang Bulanan Terpakai : Rp " + hitung.hitungUangBulananTerpakai(YearMonth.now()));
+        System.out.println("Pemasukan Bulanan     : Rp " + hitung.hitungPemasukanBulanan(YearMonth.now()));
         System.out.println("Sisa Saldo            : Rp " + hitung.hitungSisaSaldo());
         System.out.println("Status Limit Harian   : " + (hitung.isOverLimit(hariIni) ? "MERAH (OVER LIMIT)" : "AMAN"));
     }

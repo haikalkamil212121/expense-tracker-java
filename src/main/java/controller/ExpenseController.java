@@ -29,6 +29,7 @@ public class ExpenseController implements Initializable {
 
     @FXML private Label lblHarianTerpakai;
     @FXML private Label lblBulananTerpakai;
+    @FXML private Label lblPemasukanBulanan;
     @FXML private Label lblPemasukan;
     @FXML private Label lblSisaSaldo;
     @FXML private Label lblStatusLimit;
@@ -97,11 +98,13 @@ public class ExpenseController implements Initializable {
 
         double harian = perhitungan.hitungUangHarianTerpakai(tgl);
         double bulanan = perhitungan.hitungUangBulananTerpakai(bln);
+        double pemasukanBulanan = perhitungan.hitungPemasukanBulanan(bln);
         double pemasukan = perhitungan.hitungTotalPemasukan();
         double saldo = perhitungan.hitungSisaSaldo();
 
         lblHarianTerpakai.setText("Rp " + String.format("%,.0f", harian));
         lblBulananTerpakai.setText("Rp " + String.format("%,.0f", bulanan));
+        lblPemasukanBulanan.setText("Rp " + String.format("%,.0f", pemasukanBulanan));
         lblPemasukan.setText("Rp " + String.format("%,.0f", pemasukan));
         lblSisaSaldo.setText("Rp " + String.format("%,.0f", saldo));
 

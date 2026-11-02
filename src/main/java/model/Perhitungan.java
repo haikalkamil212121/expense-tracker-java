@@ -55,6 +55,18 @@ public class Perhitungan {
         return total;
     }
 
+    // Menghitung pemasukan bulanan pada bulan yang dipilih
+    public double hitungPemasukanBulanan(YearMonth bulan) {
+        double total = 0;
+        for (Transaksi t : listTransaksi) {
+            YearMonth bulanTransaksi = YearMonth.from(t.getTanggal());
+            if (t.getJenis().equals("Pemasukan") && bulanTransaksi.equals(bulan)) {
+                total += t.getNominal();
+            }
+        }
+        return total;
+    }
+
     // Menghitung sisa uang / saldo keseluruhan
     public double hitungSisaSaldo() {
         double totalKeluar = 0;

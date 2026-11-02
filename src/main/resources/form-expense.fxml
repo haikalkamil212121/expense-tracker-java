@@ -63,6 +63,11 @@
     </HBox>
 
     <HBox spacing="10.0">
+        <Label text="Pemasukan Bulanan:" prefWidth="150.0" style="-fx-font-weight: bold;"/>
+        <Label fx:id="lblPemasukanBulanan" text="Rp 0" style="-fx-font-weight: bold;"/>
+    </HBox>
+
+    <HBox spacing="10.0">
         <Label text="Total Pemasukan:" prefWidth="150.0"/>
         <Label fx:id="lblPemasukan" text="Rp 0"/>
         <Label text="|  Sisa Saldo:"/>
